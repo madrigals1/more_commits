@@ -10,6 +10,7 @@
     "lint": "eslint src/**/*.ts src/**/*.tsx"
   },
   "dependencies": {
+    "dotenv": "^16.0.0",
     "restana": "^4.9.3",
     "rimraf": "^3.0.2"
   },
