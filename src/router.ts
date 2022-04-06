@@ -1,10 +1,9 @@
-import {
-  Service, Protocol, Request, Response,
-} from 'restana';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { Express } from 'express';
 
-type Req = Request<Protocol>;
-type Res = Response<Protocol>;
-
-export function addRoutes(app: Service<Protocol.HTTP>): void {
-  app.get('/', (req: Req, res: Res) => res.send({ detail: 'Hello World!' }));
+export function addRoutes(app: Express): void {
+  app.get('/', (req: any, res: any) => res.send('More Commits is running!'));
+  app.get('/main', (req: any, res: any) => {
+    res.render('main', { layout: false });
+  });
 }
