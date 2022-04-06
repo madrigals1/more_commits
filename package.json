@@ -1,0 +1,23 @@
+{
+  "name": "more_commits",
+  "version": "0.1.0",
+  "description": "Show commits for all commit providers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madrigals1/more_commits.git"
+  },
+  "author": "Adi Sabyrbayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madrigals1/more_commits/issues"
+  },
+  "homepage": "https://github.com/madrigals1/more_commits#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
