@@ -1,7 +1,12 @@
 import restana from 'restana';
 
+import constants from './constants';
+
 const app = restana();
 
 app.get('/', (req, res) => res.send({ detail: 'Hello World!' }));
 
-app.start(3000).then(() => console.log('App is running on port 3000'));
+const message = `App is running on port ${constants.PORT}`;
+
+// eslint-disable-next-line no-console
+app.start(constants.PORT).then(() => console.log(message));
