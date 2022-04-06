@@ -23,6 +23,7 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
+    "restana": "^4.9.3",
     "rimraf": "^3.0.2"
   }
 }
