@@ -1,10 +1,11 @@
 import restana from 'restana';
 
 import constants from './constants';
+import { addRoutes } from './router';
 
 const app = restana();
 
-app.get('/', (req, res) => res.send({ detail: 'Hello World!' }));
+addRoutes(app);
 
 const message = `App is running on port ${constants.PORT}`;
 
