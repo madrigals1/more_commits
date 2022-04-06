@@ -8,6 +8,15 @@
     "start": "npm run build && node dist/index.js",
     "test": "test"
   },
+  "dependencies": {
+    "restana": "^4.9.3",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "eslint": "^8.12.0",
+    "typescript": "^4.6.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madrigals1/more_commits.git"
@@ -17,14 +26,5 @@
   "bugs": {
     "url": "https://github.com/madrigals1/more_commits/issues"
   },
-  "homepage": "https://github.com/madrigals1/more_commits#readme",
-  "devDependencies": {
-    "@types/node": "^17.0.23",
-    "eslint": "^8.12.0",
-    "typescript": "^4.6.3"
-  },
-  "dependencies": {
-    "restana": "^4.9.3",
-    "rimraf": "^3.0.2"
-  }
+  "homepage": "https://github.com/madrigals1/more_commits#readme"
 }
